@@ -15,7 +15,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        process.env.RAECT_APP_EMAILJS_SERVICE_ID,
+        "service_4661qd7",
         "template_wjdie3h",
         form.current,
         "_geOTjcVpuDwzlJcL"
