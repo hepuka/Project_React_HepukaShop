@@ -7,7 +7,7 @@ import {
   Title,
   Tooltip,
   Legend,
-} from "chartjs";
+} from "chart.js";
 import { Bar } from "react-chartjs-2";
 import Card from "../card/Card.component";
 import styles from "./Chart.module.scss";
