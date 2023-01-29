@@ -7,7 +7,7 @@ import {
   Title,
   Tooltip,
   Legend,
-} from "chart.js";
+} from "chartjs";
 import { Bar } from "react-chartjs-2";
 import Card from "../card/Card.component";
 import styles from "./Chart.module.scss";
@@ -31,7 +31,7 @@ export const options = {
     },
     title: {
       display: false,
-      text: "Chart.js Bar Chart",
+      text: "Chart Bar Chart",
     },
   },
 };
