@@ -69,9 +69,6 @@ const Home = () => {
           icon={ordersIcon}
         />
       </div>
-      <div>
-        <Chart />
-      </div>
     </div>
   );
 };

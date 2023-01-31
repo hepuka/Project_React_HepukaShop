@@ -1,27 +1,10 @@
 import React from "react";
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Title,
-  Tooltip,
-  Legend,
-} from "chart.js";
+
 import { Bar } from "react-chartjs-2";
 import Card from "../card/Card.component";
 import styles from "./Chart.module.scss";
 import { selectOrderHistory } from "../../redux/slice/orderSlice";
 import { useSelector } from "react-redux";
-
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Title,
-  Tooltip,
-  Legend
-);
 
 export const options = {
   responsive: true,
